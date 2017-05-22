@@ -15,7 +15,7 @@ public class Calculator {
         System.out.println(additionBinary(5, 10, (a, b) -> a + b)); //15
         System.out.println(additionBinary(20, 10, (a, b) -> a - b));//10
         System.out.println(additionBinary(20, 10, (a, b) -> a * b));//200
-        System.out.println(additionBinary(20, 0, (a, b) -> a / b));//2
+        System.out.println(additionBinary(20, 0, dzielenie));//2
 
 
         // System.out.println(additionBinary(5,10,dodawanie)); //15
